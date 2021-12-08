@@ -1,7 +1,11 @@
-'use strict';
+import express from "express";
 
-const express = require('express');
 const app = express();
 
 
-module.exports = app;
+//
+
+//RUN SERVER ON PORT 8000
+app.listen(process.env.PORT || 8000, ()=>{
+    console.log(`App is running on port ${process.env.PORT || 8000}`);
+})
