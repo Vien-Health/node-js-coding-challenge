@@ -3,15 +3,21 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
+    "start": "node -r dotenv/config -r esm app.js",
+    "dev": "nodemon -r dotenv/config -r esm app.js",
     "test": "mocha --recursive"
   },
   "dependencies": {
-    "body-parser": "^1.16.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
     "express": "~4.11.1",
     "express-bearer-token": "^2.1.0",
     "hash": "^0.2.0",
-    "mongodb": "^2.2.24",
+    "mongodb": "^2.2.36",
+    "mongoose": "^6.1.0",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
