@@ -4,3 +4,5 @@ angularjs-frontend/.tmp
 TODO.TXT
 .env
 appold.js
+utils
+modules
