@@ -25,11 +25,11 @@
 ## You Need:
 * .env file 
 ``` .env 
-  # PrivateKey for jwt 
+  # PrivateKey for jwt -- Required
   jwtPrivateKey=
-  # Mongodb URi
+  # Mongodb URi -- Optional
   DB_URI=
-  # Port application runs on
+  # Port application runs on -- Optional
   PORT=
  
  ```
