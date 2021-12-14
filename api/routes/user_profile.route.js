@@ -4,6 +4,6 @@ const auth = require("../../middleware/auth")
 const UserProfileController  = require("../controllers/user_profile.controller")
 
 router.use(auth)
-router.route("/profile", UserProfileController.profile)
+router.route("/profile").get(UserProfileController.profile)
 
 module.exports = router ; 
