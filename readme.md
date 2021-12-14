@@ -21,3 +21,15 @@
 
 ### You could:
 * Use any npm library you like
+
+## You Need:
+* .env file 
+``` .env 
+  # PrivateKey for jwt 
+  jwtPrivateKey=
+  # Mongodb URi
+  DB_URI=
+  # Port application runs on
+  PORT=
+ 
+ ```
