@@ -1,5 +1,5 @@
 {
-  "name": "Noode.JS-Coding-Challenge",
+  "name": "noode.js-coding-challenge",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,11 +7,20 @@
     "test": "mocha --recursive"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.16.1",
-    "express": "~4.11.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
     "express-bearer-token": "^2.1.0",
+    "express-unless": "^1.0.0",
     "hash": "^0.2.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^2.2.24",
+    "mongoose": "^6.1.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
@@ -25,5 +34,20 @@
     "mocha": "^2.4.5",
     "supertest": "^1.2.0",
     "supertest-as-promised": "^3.1.0"
-  }
+  },
+  "description": "* Node.js\r * MongoDB",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelo1/node-js-coding-challenge.git"
+  },
+  "author": "Kelvin Asare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelo1/node-js-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/kelo1/node-js-coding-challenge#readme"
 }
