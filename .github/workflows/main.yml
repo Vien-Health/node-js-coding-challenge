@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@2
-        - uses: actions/setup-node@v2
+        - uses: actions/setup-node@v1
           with: 
                 12.x, node-version: 12
         - run:  npm ci #this means install
